@@ -275,18 +275,13 @@
   width: 44px;
   height: 18px;
 
-  /* Button Bold */
-
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  /* identical to box height, or 18px */
 
   text-align: center;
-
-  /* yellow button */
 
   background: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
   -webkit-background-clip: text;
