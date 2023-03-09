@@ -1,4 +1,4 @@
-import "./App.css";
+import "./style.css";
 import burgerLogo from "./icons/burger-logo.svg";
 import locationLogo from "./icons/map-marker-alt.svg";
 import searchLogo from "./icons/Search.svg";
