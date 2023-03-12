@@ -3,6 +3,10 @@ import burgerLogo from "./icons/burger-logo.svg";
 import locationLogo from "./icons/map-marker-alt.svg";
 import searchLogo from "./icons/Search.svg";
 import userLogo from "./icons/user.svg";
+import deliveryLogo from "./icons/bike.svg";
+import pickUpLogo from "./icons/cart.svg";
+import locationTitleLogo from "./icons/location.svg";
+import findLogo from "./icons/find.svg";
 
 function App() {
   return (
@@ -56,10 +60,39 @@ function App() {
         <div className="title-order">
           <div className="title-div">
             <h1 className="title-h1">Are you starving?</h1>
-            <p className="title-description">Within a few clicks, find meals that are accessible near you</p>
+            <p className="title-description">
+              Within a few clicks, find meals that are accessible near you
+            </p>
           </div>
-          <div className="order-div"></div>
         </div>
+        <div className="order-div">
+          <div className="buttons-for-order">
+            <button className="delivery-button">
+              <img
+                className="delivery-icon"
+                alt="delivery icon"
+                src={deliveryLogo}
+              />{" "}
+              Delivery
+            </button>
+
+            <button className="pickup-button">
+              <img className="pickup-icon" alt="pickup icon" src={pickUpLogo} />
+              Pickup
+            </button>
+          </div>
+          <div className="grey-line"></div>
+          <div className="enter-adress-title">
+            <form>
+              <div>
+                <i className={locationTitleLogo} />
+
+                <input placeholder="Enter Your Address"></input>
+              </div>
+            </form>
+          </div>
+        </div>
+
         <div className="main-photo"></div>
       </div>
     </div>
