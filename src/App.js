@@ -52,6 +52,16 @@ function App() {
         </div>
         <div></div>
       </div>
+      <div className="title-main">
+        <div className="title-order">
+          <div className="title-div">
+            <h1 className="title-h1">Are you starving?</h1>
+            <p className="title-description">Within a few clicks, find meals that are accessible near you</p>
+          </div>
+          <div className="order-div"></div>
+        </div>
+        <div className="main-photo"></div>
+      </div>
     </div>
   );
 }

@@ -180,6 +180,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .user-logo {
@@ -203,5 +204,5 @@ body {
   font-size: 18px;
   line-height: 100%;
   text-align: center;
-  color: #FFB800;
+  color: #ffb800;
 }/*# sourceMappingURL=style.css.map */
