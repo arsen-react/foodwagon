@@ -7,6 +7,7 @@ import deliveryLogo from "./icons/bike.svg";
 import pickUpLogo from "./icons/cart.svg";
 import locationTitleLogo from "./icons/location.svg";
 import findLogo from "./icons/find.svg";
+import titleImg from "./icons/title-image.png";
 
 function App() {
   return (
@@ -57,43 +58,64 @@ function App() {
         <div></div>
       </div>
       <div className="title-main">
-        <div className="title-order">
-          <div className="title-div">
-            <h1 className="title-h1">Are you starving?</h1>
-            <p className="title-description">
-              Within a few clicks, find meals that are accessible near you
-            </p>
+        <div>
+          <div className="title-order">
+            <div className="title-div">
+              <h1 className="title-h1">Are you starving?</h1>
+              <p className="title-description">
+                Within a few clicks, find meals that are accessible near you
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="order-div">
-          <div className="buttons-for-order">
-            <button className="delivery-button">
-              <img
-                className="delivery-icon"
-                alt="delivery icon"
-                src={deliveryLogo}
-              />{" "}
-              Delivery
-            </button>
+          <div className="order-div">
+            <div className="buttons-for-order">
+              <button className="delivery-button">
+                <img
+                  className="delivery-icon"
+                  alt="delivery icon"
+                  src={deliveryLogo}
+                />{" "}
+                Delivery
+              </button>
 
-            <button className="pickup-button">
-              <img className="pickup-icon" alt="pickup icon" src={pickUpLogo} />
-              Pickup
-            </button>
-          </div>
-          <div className="grey-line"></div>
-          <div className="enter-adress-title">
-            <form>
-              <div>
-                <i className={locationTitleLogo} />
-
-                <input placeholder="Enter Your Address"></input>
+              <button className="pickup-button">
+                <img
+                  className="pickup-icon"
+                  alt="pickup icon"
+                  src={pickUpLogo}
+                />
+                Pickup
+              </button>
+            </div>
+            <div className="grey-line">grey line</div>
+            <div className="enter-address-title">
+              <div className="input-title-area">
+                <div className="location-logo">
+                  <img
+                    src={locationTitleLogo}
+                    className="location-logo-title"
+                    alt="location logo"
+                  />
+                </div>
+                <input
+                  placeholder="Enter Your Address"
+                  className="input-title-address"
+                ></input>
               </div>
-            </form>
+              <button className="find-food-button">
+                <img
+                  src={findLogo}
+                  className="find-food-icon"
+                  alt="find icon"
+                />
+                <p className="find-food-p">Find Food</p>
+              </button>
+            </div>
           </div>
         </div>
-
-        <div className="main-photo"></div>
+        <div className="main-photo">
+          <img className="title-img" alt="title pizza img" src={titleImg} />
+        </div>
       </div>
     </div>
   );
