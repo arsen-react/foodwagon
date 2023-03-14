@@ -75,7 +75,7 @@ function App() {
                   alt="delivery icon"
                   src={deliveryLogo}
                 />{" "}
-                Delivery
+                <p className="delivery-p">Pickup</p>
               </button>
 
               <button className="pickup-button">
@@ -84,7 +84,7 @@ function App() {
                   alt="pickup icon"
                   src={pickUpLogo}
                 />
-                Pickup
+                <p className="pickup-p">Pickup</p>
               </button>
             </div>
             <div className="grey-line">grey line</div>
