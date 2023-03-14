@@ -249,7 +249,9 @@ body {
   align-items: center;
   padding: 6px;
   border-radius: 10%;
-  margin-left: 5%;
+  margin: 3% 0% 0% 5%;
+  border: none;
+  outline: none;
   background: rgba(241, 114, 40, 0.1);
   cursor: pointer;
 }
@@ -264,7 +266,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #f17228;
-  margin: 0% 0% 0% 8%;
+  margin: 0% 0% 0% 6%;
 }
 
 .pickup-button {
@@ -275,7 +277,10 @@ body {
   background-color: #ffffff;
   padding: 8px;
   border-radius: 10%;
-  margin-left: 1%;
+  margin: 3% 0% 0% 2%;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .pickup-icon {
@@ -287,18 +292,27 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  margin-left: 8%;
+  margin-left: 10%;
   color: #757575;
+}
+
+.grey-line {
+  align-items: start;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+  margin: 2% 0% 2% 0%;
 }
 
 .enter-address-title {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
 }
 
 .input-title-area {
-  width: 593px;
-  height: 49px;
+  width: 80%;
   display: flex;
   position: relative;
   align-items: center;
@@ -310,17 +324,38 @@ body {
   width: 18px;
   height: 34px;
   padding: 3px;
-  margin-left: 5px;
   position: absolute;
   box-sizing: border-box;
 }
 
 .input-title-address {
-  margin-left: 30px;
-  width: 90%;
+  width: 100%;
+  margin-left: 5%;
   height: 25px;
+  border: none;
+  outline: none;
 }
 
 .find-food-button {
+  width: 120px;
   display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: linear-gradient(95.71deg, #ff7a7a -39.64%, #f75900 135.31%);
+  cursor: pointer;
+}
+
+.find-food-icon {
+  margin-left: 3%;
+}
+
+.find-food-p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5%;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
